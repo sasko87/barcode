@@ -91,9 +91,9 @@ function App() {
             <Barcode
               value={value}
               format="CODE128"
-              renderer="svg" // use SVG renderer for crispness
+              renderer="svg"
               width={1.3}
-              height={38}
+              height={40}
               fontSize={10}
               margin={0}
             />
