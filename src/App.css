@@ -102,9 +102,9 @@ input {
   .barcode {
     /* page-break-inside: avoid; */
     box-sizing: border-box;
-    margin: 0.5cm 0.3cm;
-    width: 3.5cm;
-    height: 1.4cm;
+    margin: 0.5cm 0;
+    width: 3cm;
+    height: 1.2cm;
     display: flex;
     justify-content: center;
     align-items: center;
