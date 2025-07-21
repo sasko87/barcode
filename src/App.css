@@ -56,10 +56,10 @@ input {
 .barcodes {
   display: grid;
   grid-template-columns: repeat(5, 4.2cm);
-  grid-template-rows: repeat(13, 2.3cm);
+ 
   justify-content: center;
-  height: 2.3cm;
-  
+ 
+  height: 2.35cm;
 
   
   
@@ -72,6 +72,8 @@ input {
   justify-content: center;
   align-items: center;
   width: 4.2cm;
+  height: 2.35cm;
+ 
   
 }
 
@@ -105,9 +107,6 @@ input {
     
   }
 
-  /* Optional: remove margins/padding around barcodes */
-  .barcode {
-     page-break-inside: avoid; 
-  }
+
 
 }
