@@ -55,19 +55,24 @@ input {
 
 .barcodes {
   display: grid;
-  grid-template-columns: repeat(5, 143.64px);
-  grid-template-rows: repeat(13, 79px);
+  grid-template-columns: repeat(5, 4.2cm);
+  grid-template-rows: repeat(13, 2.3cm);
   justify-content: center;
-  gap: 0.5rem;
-  margin: 1px ;
-  height: 2.1cm;
+  height: 2.3cm;
+  
+
+  
+  
  
 }
 
 .barcode {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 4.2cm;
+  
 }
 
 .print-button {
@@ -88,6 +93,7 @@ input {
   .barcodes,
   .barcodes * {
     visibility: visible;
+    
   }
 
   /* Position barcodes container at the top left of the page */
@@ -96,17 +102,12 @@ input {
     top: 0;
     left: 0;
     width: 794px; /* A4 width */
+    
   }
 
   /* Optional: remove margins/padding around barcodes */
   .barcode {
-    /* page-break-inside: avoid; */
-    box-sizing: border-box;
-    margin: 0.5cm 0;
-    width: 3cm;
-    height: 1.2cm;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     page-break-inside: avoid; 
   }
+
 }

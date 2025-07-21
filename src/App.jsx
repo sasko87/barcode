@@ -93,7 +93,7 @@ function App() {
               format="CODE128"
               renderer="svg"
               width={1.1}
-              height={44}
+              height={38}
               fontSize={10}
               margin={0}
             />
