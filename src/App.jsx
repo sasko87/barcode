@@ -41,6 +41,7 @@ function App() {
 
   const clearBarcodes = () => {
     setBarcodes([]);
+    setBarcodeNumber("")
   };
   return (
     <>
