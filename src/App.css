@@ -55,11 +55,13 @@ input {
 
 .barcodes {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 143.64px);
+  grid-template-rows: repeat(13, 79px);
+  justify-content: center;
   gap: 0.5rem;
-  margin: 1px auto;
+  margin: 1px ;
   height: 2.1cm;
-  margin: 1px;
+ 
 }
 
 .barcode {
@@ -98,11 +100,11 @@ input {
 
   /* Optional: remove margins/padding around barcodes */
   .barcode {
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
     box-sizing: border-box;
     margin: 0.5cm 0.3cm;
-    width: 4cm;
-    height: 1.1cm;
+    width: 3.5cm;
+    height: 1.4cm;
     display: flex;
     justify-content: center;
     align-items: center;
