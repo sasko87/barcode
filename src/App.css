@@ -56,10 +56,10 @@ input {
 .barcodes {
   display: grid;
   grid-template-columns: repeat(5, 4.2cm);
- 
+
   justify-content: center;
  
-  height: 2.35cm;
+ 
 
   
   
@@ -73,7 +73,7 @@ input {
   align-items: center;
   width: 4.2cm;
   height: 2.35cm;
- 
+
   
 }
 
@@ -95,7 +95,7 @@ input {
   .barcodes,
   .barcodes * {
     visibility: visible;
-    
+   
   }
 
   /* Position barcodes container at the top left of the page */
